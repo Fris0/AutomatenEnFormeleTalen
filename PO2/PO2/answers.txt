@@ -1,0 +1,11 @@
+Remaining trace(s):
+['READ', 'LEM', 'WRITE', 'LEM', 'MRIGHT', 'READ', 'SYMBOL', 'WRITE', 'SYMBOL', 'MRIGHT', 'READ', 'SYMBOL', 'WRITE', 'SYMBOL', 'MRIGHT', 'READ', 'SYMBOL', 'WRITE', 'SYMBOL', 'MRIGHT', 'READ', 'SYMBOL', 'WRITE', 'SYMBOL', 'MRIGHT', 'READ', 'SYMBOL', 'WRITE', 'SYMBOL', 'MRIGHT', 'READ', 'SYMBOL', 'WRITE', 'SYMBOL', 'MRIGHT']
+
+2.3 A)
+input: 011101
+output: 100010
+
+2.3 B)
+It turns 1's into 0's and 0's into 1's and moves to the right. But we it is impossible to determine if it would do the same for other bitstring,
+since there is not enough prefix comparrison material and the trace only shows the result for this exact input. Also the turing machine
+could behave differently even after reading the prefix.

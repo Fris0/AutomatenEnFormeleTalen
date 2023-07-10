@@ -1,0 +1,1280 @@
+- ⊢ + ⊢ > - 0 + ⊔ > - | + 0 > - 0 + ⊔ < - 0 + | < - ⊔ + 0 > - | + ⊔ >
+input 0|0
+output 0
+Trace specified: - ⊢ + ⊢ > - 0 + ⊔ > - | + 0 > - 0 + ⊔ < - 0 + | < - ⊔ + 0 > - | + ⊔ >
+Input specified: 0|0
+New tape:
+⊢ 0 | 0 ⊔ ⊔ ⊔ ...
+^      
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 0 | 0 ⊔ ⊔ ⊔ ...
+  ^    
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ ⊔ | 0 ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - | + 0 >
+New tape: 
+⊢ ⊔ 0 0 ⊔ ⊔ ⊔ ...
+      ^
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ ⊔ 0 ⊔ ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - 0 + | <
+New tape: 
+⊢ ⊔ | ⊔ ⊔ ⊔ ⊔ ...
+  ^    
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 | ⊔ ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 1 + ⊔ > - 0 + 0 > - 1 + 1 > - | + 1 > - 1 + ⊔ < - 1 + | < - 1 + 1 < - 0 + 0 < - ⊔ + 0 > - 0 + ⊔ > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+input 101|101
+output 000
+Trace specified: - ⊢ + ⊢ > - 1 + ⊔ > - 0 + 0 > - 1 + 1 > - | + 1 > - 1 + ⊔ < - 1 + | < - 1 + 1 < - 0 + 0 < - ⊔ + 0 > - 0 + ⊔ > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+Input specified: 101|101
+New tape:
+⊢ 1 0 1 | 1 0 1 ⊔ ⊔ ⊔ ...
+^              
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 1 0 1 | 1 0 1 ⊔ ⊔ ⊔ ...
+  ^            
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ ⊔ 0 1 | 1 0 1 ⊔ ⊔ ⊔ ...
+    ^          
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ ⊔ 0 1 | 1 0 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ ⊔ 0 1 | 1 0 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - | + 1 >
+New tape: 
+⊢ ⊔ 0 1 1 1 0 1 ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ ⊔ 0 1 1 ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - 1 + | <
+New tape: 
+⊢ ⊔ 0 1 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ ⊔ 0 1 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+    ^          
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ ⊔ 0 1 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+  ^            
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 0 1 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+    ^          
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ 0 ⊔ 1 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ 0 ⊔ 1 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - | + 0 >
+New tape: 
+⊢ 0 ⊔ 1 0 ⊔ 0 1 ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 ⊔ 1 0 ⊔ 0 1 ⊔ ⊔ ⊔ ...
+            ^  
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ 0 ⊔ 1 0 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 ⊔ 1 0 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - 0 + | <
+New tape: 
+⊢ 0 ⊔ 1 | ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ 0 ⊔ 1 | ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+    ^          
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 0 1 | ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ 0 0 ⊔ | ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - | + 1 >
+New tape: 
+⊢ 0 0 ⊔ 1 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 0 ⊔ 1 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+            ^  
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 0 ⊔ 1 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+              ^
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ 0 0 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+            ^  
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 0 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 0 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - 1 + | <
+New tape: 
+⊢ 0 0 ⊔ | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 0 0 | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 0 0 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+          ^    
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 0 + ⊔ > - 0 + 0 > - | + 0 > - 1 + ⊔ < - 0 + | < - 0 + 0 < - ⊔ + 1 > - 0 + ⊔ > - | + 0 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 0 + | < - ⊔ + 0 > - | + ⊔ >
+input 00|10
+output 10
+Trace specified: - ⊢ + ⊢ > - 0 + ⊔ > - 0 + 0 > - | + 0 > - 1 + ⊔ < - 0 + | < - 0 + 0 < - ⊔ + 1 > - 0 + ⊔ > - | + 0 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 0 + | < - ⊔ + 0 > - | + ⊔ >
+Input specified: 00|10
+New tape:
+⊢ 0 0 | 1 0 ⊔ ⊔ ⊔ ...
+^          
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 0 0 | 1 0 ⊔ ⊔ ⊔ ...
+  ^        
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ ⊔ 0 | 1 0 ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ ⊔ 0 | 1 0 ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - | + 0 >
+New tape: 
+⊢ ⊔ 0 0 1 0 ⊔ ⊔ ⊔ ...
+        ^  
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ ⊔ 0 0 ⊔ 0 ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - 0 + | <
+New tape: 
+⊢ ⊔ 0 | ⊔ 0 ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ ⊔ 0 | ⊔ 0 ⊔ ⊔ ⊔ ...
+  ^        
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 0 | ⊔ 0 ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ 1 ⊔ | ⊔ 0 ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - | + 0 >
+New tape: 
+⊢ 1 ⊔ 0 ⊔ 0 ⊔ ⊔ ⊔ ...
+        ^  
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 ⊔ 0 ⊔ 0 ⊔ ⊔ ⊔ ...
+          ^
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ 1 ⊔ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^  
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 ⊔ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - 0 + | <
+New tape: 
+⊢ 1 ⊔ | ⊔ ⊔ ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 1 0 | ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 1 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^  
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 1 + ⊔ > - 1 + 1 > - | + 1 > - 1 + ⊔ < - 1 + | < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+input 11|11
+output 00
+Trace specified: - ⊢ + ⊢ > - 1 + ⊔ > - 1 + 1 > - | + 1 > - 1 + ⊔ < - 1 + | < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+Input specified: 11|11
+New tape:
+⊢ 1 1 | 1 1 ⊔ ⊔ ⊔ ...
+^          
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 1 1 | 1 1 ⊔ ⊔ ⊔ ...
+  ^        
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ ⊔ 1 | 1 1 ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ ⊔ 1 | 1 1 ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - | + 1 >
+New tape: 
+⊢ ⊔ 1 1 1 1 ⊔ ⊔ ⊔ ...
+        ^  
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ ⊔ 1 1 ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - 1 + | <
+New tape: 
+⊢ ⊔ 1 | ⊔ 1 ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ ⊔ 1 | ⊔ 1 ⊔ ⊔ ⊔ ...
+  ^        
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 1 | ⊔ 1 ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ 0 ⊔ | ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - | + 1 >
+New tape: 
+⊢ 0 ⊔ 1 ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^  
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 ⊔ 1 ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ 0 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^  
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - 1 + | <
+New tape: 
+⊢ 0 ⊔ | ⊔ ⊔ ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 0 | ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 0 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^  
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 0 + ⊔ > - | + 0 > - 1 + ⊔ < - 0 + | < - ⊔ + 1 > - | + ⊔ >
+input 0|1
+output 1
+Trace specified: - ⊢ + ⊢ > - 0 + ⊔ > - | + 0 > - 1 + ⊔ < - 0 + | < - ⊔ + 1 > - | + ⊔ >
+Input specified: 0|1
+New tape:
+⊢ 0 | 1 ⊔ ⊔ ⊔ ...
+^      
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 0 | 1 ⊔ ⊔ ⊔ ...
+  ^    
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ ⊔ | 1 ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - | + 0 >
+New tape: 
+⊢ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ ⊔ 0 ⊔ ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - 0 + | <
+New tape: 
+⊢ ⊔ | ⊔ ⊔ ⊔ ⊔ ...
+  ^    
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 | ⊔ ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 1 + ⊔ > - | + 1 > - 0 + ⊔ < - 1 + | < - ⊔ + 1 > - | + ⊔ >
+input 1|0
+output 1
+Trace specified: - ⊢ + ⊢ > - 1 + ⊔ > - | + 1 > - 0 + ⊔ < - 1 + | < - ⊔ + 1 > - | + ⊔ >
+Input specified: 1|0
+New tape:
+⊢ 1 | 0 ⊔ ⊔ ⊔ ...
+^      
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 1 | 0 ⊔ ⊔ ⊔ ...
+  ^    
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ ⊔ | 0 ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - | + 1 >
+New tape: 
+⊢ ⊔ 1 0 ⊔ ⊔ ⊔ ...
+      ^
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ ⊔ 1 ⊔ ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - 1 + | <
+New tape: 
+⊢ ⊔ | ⊔ ⊔ ⊔ ⊔ ...
+  ^    
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 | ⊔ ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 1 + ⊔ > - 1 + 1 > - 1 + 1 > - 0 + 0 > - | + 1 > - 0 + ⊔ < - 1 + | < - 0 + 0 < - 1 + 1 < - 1 + 1 < - ⊔ + 1 > - 1 + ⊔ > - 1 + 1 > - 0 + 0 > - | + 1 > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - 1 + | < - 0 + 0 < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - 0 + 0 > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - 0 + 0 < - ⊔ + 1 > - 0 + ⊔ > - | + 0 > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 0 + | < - ⊔ + 1 > - | + ⊔ >
+input 1110|0101
+output 1011
+Trace specified: - ⊢ + ⊢ > - 1 + ⊔ > - 1 + 1 > - 1 + 1 > - 0 + 0 > - | + 1 > - 0 + ⊔ < - 1 + | < - 0 + 0 < - 1 + 1 < - 1 + 1 < - ⊔ + 1 > - 1 + ⊔ > - 1 + 1 > - 0 + 0 > - | + 1 > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - 1 + | < - 0 + 0 < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - 0 + 0 > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - 0 + 0 < - ⊔ + 1 > - 0 + ⊔ > - | + 0 > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 0 + | < - ⊔ + 1 > - | + ⊔ >
+Input specified: 1110|0101
+New tape:
+⊢ 1 1 1 0 | 0 1 0 1 ⊔ ⊔ ⊔ ...
+^                  
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 1 1 1 0 | 0 1 0 1 ⊔ ⊔ ⊔ ...
+  ^                
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ ⊔ 1 1 0 | 0 1 0 1 ⊔ ⊔ ⊔ ...
+    ^              
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ ⊔ 1 1 0 | 0 1 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ ⊔ 1 1 0 | 0 1 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ ⊔ 1 1 0 | 0 1 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + 1 >
+New tape: 
+⊢ ⊔ 1 1 0 1 0 1 0 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ ⊔ 1 1 0 1 ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - 1 + | <
+New tape: 
+⊢ ⊔ 1 1 0 | ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ ⊔ 1 1 0 | ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ ⊔ 1 1 0 | ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+    ^              
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ ⊔ 1 1 0 | ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+  ^                
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 1 1 0 | ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+    ^              
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ 1 ⊔ 1 0 | ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ 1 ⊔ 1 0 | ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ 1 ⊔ 1 0 | ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + 1 >
+New tape: 
+⊢ 1 ⊔ 1 0 1 ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 ⊔ 1 0 1 ⊔ 1 0 1 ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ 1 ⊔ 1 0 1 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 ⊔ 1 0 1 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - 1 + | <
+New tape: 
+⊢ 1 ⊔ 1 0 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ 1 ⊔ 1 0 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ 1 ⊔ 1 0 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+    ^              
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 1 0 1 0 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ 1 0 ⊔ 0 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ 1 0 ⊔ 0 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + 1 >
+New tape: 
+⊢ 1 0 ⊔ 0 1 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 ⊔ 0 1 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 ⊔ 0 1 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+                ^  
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ 1 0 ⊔ 0 1 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 ⊔ 0 1 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 ⊔ 0 1 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - 1 + | <
+New tape: 
+⊢ 1 0 ⊔ 0 | ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ 1 0 ⊔ 0 | ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 0 1 0 | ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ 1 0 1 ⊔ | ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + 0 >
+New tape: 
+⊢ 1 0 1 ⊔ 0 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 1 ⊔ 0 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 1 ⊔ 0 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                ^  
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 1 ⊔ 0 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                  ^
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ 1 0 1 ⊔ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+                ^  
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 1 ⊔ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 1 ⊔ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 1 ⊔ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - 0 + | <
+New tape: 
+⊢ 1 0 1 ⊔ | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 0 1 1 | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 1 0 1 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+            ^      
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 0 + ⊔ > - 1 + 1 > - 0 + 0 > - | + 0 > - 1 + ⊔ < - 0 + | < - 0 + 0 < - 1 + 1 < - ⊔ + 1 > - 1 + ⊔ > - 0 + 0 > - | + 1 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 1 + | < - 0 + 0 < - ⊔ + 1 > - 0 + ⊔ > - | + 0 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 0 + | < - ⊔ + 1 > - | + ⊔ >
+input 010|101
+output 111
+Trace specified: - ⊢ + ⊢ > - 0 + ⊔ > - 1 + 1 > - 0 + 0 > - | + 0 > - 1 + ⊔ < - 0 + | < - 0 + 0 < - 1 + 1 < - ⊔ + 1 > - 1 + ⊔ > - 0 + 0 > - | + 1 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 1 + | < - 0 + 0 < - ⊔ + 1 > - 0 + ⊔ > - | + 0 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 0 + | < - ⊔ + 1 > - | + ⊔ >
+Input specified: 010|101
+New tape:
+⊢ 0 1 0 | 1 0 1 ⊔ ⊔ ⊔ ...
+^              
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 0 1 0 | 1 0 1 ⊔ ⊔ ⊔ ...
+  ^            
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ ⊔ 1 0 | 1 0 1 ⊔ ⊔ ⊔ ...
+    ^          
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ ⊔ 1 0 | 1 0 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ ⊔ 1 0 | 1 0 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - | + 0 >
+New tape: 
+⊢ ⊔ 1 0 0 1 0 1 ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ ⊔ 1 0 0 ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - 0 + | <
+New tape: 
+⊢ ⊔ 1 0 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ ⊔ 1 0 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+    ^          
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ ⊔ 1 0 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+  ^            
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 1 0 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+    ^          
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ 1 ⊔ 0 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ 1 ⊔ 0 | ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - | + 1 >
+New tape: 
+⊢ 1 ⊔ 0 1 ⊔ 0 1 ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 ⊔ 0 1 ⊔ 0 1 ⊔ ⊔ ⊔ ...
+            ^  
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ 1 ⊔ 0 1 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 ⊔ 0 1 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - 1 + | <
+New tape: 
+⊢ 1 ⊔ 0 | ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ 1 ⊔ 0 | ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+    ^          
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 1 0 | ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ 1 1 ⊔ | ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - | + 0 >
+New tape: 
+⊢ 1 1 ⊔ 0 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 1 ⊔ 0 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+            ^  
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 1 ⊔ 0 ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+              ^
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ 1 1 ⊔ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+            ^  
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 1 ⊔ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+          ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 1 ⊔ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - 0 + | <
+New tape: 
+⊢ 1 1 ⊔ | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^        
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 1 1 | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^      
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 1 1 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+          ^    
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 1 + ⊔ > - | + 1 > - 1 + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+input 1|1
+output 0
+Trace specified: - ⊢ + ⊢ > - 1 + ⊔ > - | + 1 > - 1 + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+Input specified: 1|1
+New tape:
+⊢ 1 | 1 ⊔ ⊔ ⊔ ...
+^      
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 1 | 1 ⊔ ⊔ ⊔ ...
+  ^    
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ ⊔ | 1 ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - | + 1 >
+New tape: 
+⊢ ⊔ 1 1 ⊔ ⊔ ⊔ ...
+      ^
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ ⊔ 1 ⊔ ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - 1 + | <
+New tape: 
+⊢ ⊔ | ⊔ ⊔ ⊔ ⊔ ...
+  ^    
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 | ⊔ ⊔ ⊔ ⊔ ...
+    ^  
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 0 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 1 + ⊔ > - 0 + 0 > - 0 + 0 > - 1 + 1 > - | + 1 > - 1 + ⊔ < - 1 + | < - 1 + 1 < - 0 + 0 < - 0 + 0 < - ⊔ + 0 > - 0 + ⊔ > - 0 + 0 > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - 0 + 0 < - ⊔ + 0 > - 0 + ⊔ > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+input 1001|1001
+output 0000
+Trace specified: - ⊢ + ⊢ > - 1 + ⊔ > - 0 + 0 > - 0 + 0 > - 1 + 1 > - | + 1 > - 1 + ⊔ < - 1 + | < - 1 + 1 < - 0 + 0 < - 0 + 0 < - ⊔ + 0 > - 0 + ⊔ > - 0 + 0 > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - 0 + 0 < - ⊔ + 0 > - 0 + ⊔ > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+Input specified: 1001|1001
+New tape:
+⊢ 1 0 0 1 | 1 0 0 1 ⊔ ⊔ ⊔ ...
+^                  
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 1 0 0 1 | 1 0 0 1 ⊔ ⊔ ⊔ ...
+  ^                
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ ⊔ 0 0 1 | 1 0 0 1 ⊔ ⊔ ⊔ ...
+    ^              
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ ⊔ 0 0 1 | 1 0 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ ⊔ 0 0 1 | 1 0 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ ⊔ 0 0 1 | 1 0 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + 1 >
+New tape: 
+⊢ ⊔ 0 0 1 1 1 0 0 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ ⊔ 0 0 1 1 ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - 1 + | <
+New tape: 
+⊢ ⊔ 0 0 1 | ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ ⊔ 0 0 1 | ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ ⊔ 0 0 1 | ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+    ^              
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ ⊔ 0 0 1 | ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+  ^                
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 0 0 1 | ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+    ^              
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ 0 ⊔ 0 1 | ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ 0 ⊔ 0 1 | ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ 0 ⊔ 0 1 | ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + 0 >
+New tape: 
+⊢ 0 ⊔ 0 1 0 ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 ⊔ 0 1 0 ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ 0 ⊔ 0 1 0 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 ⊔ 0 1 0 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - 0 + | <
+New tape: 
+⊢ 0 ⊔ 0 1 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ 0 ⊔ 0 1 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ 0 ⊔ 0 1 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+    ^              
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 0 0 1 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ 0 0 ⊔ 1 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ 0 0 ⊔ 1 | ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + 0 >
+New tape: 
+⊢ 0 0 ⊔ 1 0 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 0 ⊔ 1 0 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 0 ⊔ 1 0 ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+                ^  
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ 0 0 ⊔ 1 0 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 0 ⊔ 1 0 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 0 ⊔ 1 0 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - 0 + | <
+New tape: 
+⊢ 0 0 ⊔ 1 | ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ 0 0 ⊔ 1 | ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^            
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 0 0 1 | ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ 0 0 0 ⊔ | ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + 1 >
+New tape: 
+⊢ 0 0 0 ⊔ 1 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 0 0 ⊔ 1 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 0 0 ⊔ 1 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                ^  
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 0 0 0 ⊔ 1 ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                  ^
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ 0 0 0 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+                ^  
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 0 0 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+              ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 0 0 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+            ^      
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 0 0 0 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - 1 + | <
+New tape: 
+⊢ 0 0 0 ⊔ | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^          
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 0 0 0 0 | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+          ^        
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 0 0 0 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+            ^      
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 0 + ⊔ > - 1 + 1 > - | + 0 > - 1 + ⊔ < - 0 + | < - 1 + 1 < - ⊔ + 1 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+input 01|11
+output 10
+Trace specified: - ⊢ + ⊢ > - 0 + ⊔ > - 1 + 1 > - | + 0 > - 1 + ⊔ < - 0 + | < - 1 + 1 < - ⊔ + 1 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+Input specified: 01|11
+New tape:
+⊢ 0 1 | 1 1 ⊔ ⊔ ⊔ ...
+^          
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 0 1 | 1 1 ⊔ ⊔ ⊔ ...
+  ^        
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ ⊔ 1 | 1 1 ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ ⊔ 1 | 1 1 ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - | + 0 >
+New tape: 
+⊢ ⊔ 1 0 1 1 ⊔ ⊔ ⊔ ...
+        ^  
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ ⊔ 1 0 ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - 0 + | <
+New tape: 
+⊢ ⊔ 1 | ⊔ 1 ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ ⊔ 1 | ⊔ 1 ⊔ ⊔ ⊔ ...
+  ^        
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 1 | ⊔ 1 ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ 1 ⊔ | ⊔ 1 ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - | + 1 >
+New tape: 
+⊢ 1 ⊔ 1 ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^  
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 ⊔ 1 ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^  
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - 1 + | <
+New tape: 
+⊢ 1 ⊔ | ⊔ ⊔ ⊔ ⊔ ⊔ ...
+    ^      
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 1 0 | ⊔ ⊔ ⊔ ⊔ ⊔ ...
+      ^    
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 1 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+        ^  
+Reached the end of the execution trace
+- ⊢ + ⊢ > - 1 + ⊔ > - 0 + 0 > - 0 + 0 > - 1 + 1 > - 1 + 1 > - | + 1 > - 0 + ⊔ < - 1 + | < - 1 + 1 < - 1 + 1 < - 0 + 0 < - 0 + 0 < - ⊔ + 1 > - 0 + ⊔ > - 0 + 0 > - 1 + 1 > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - 1 + 1 < - 0 + 0 < - ⊔ + 0 > - 0 + ⊔ > - 1 + 1 > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - 1 + 1 > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - 1 + 1 < - ⊔ + 1 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+input 10011|00001
+output 10010
+Trace specified: - ⊢ + ⊢ > - 1 + ⊔ > - 0 + 0 > - 0 + 0 > - 1 + 1 > - 1 + 1 > - | + 1 > - 0 + ⊔ < - 1 + | < - 1 + 1 < - 1 + 1 < - 0 + 0 < - 0 + 0 < - ⊔ + 1 > - 0 + ⊔ > - 0 + 0 > - 1 + 1 > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - 1 + 1 < - 0 + 0 < - ⊔ + 0 > - 0 + ⊔ > - 1 + 1 > - 1 + 1 > - | + 0 > - ⊔ + ⊔ > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 0 + | < - 1 + 1 < - 1 + 1 < - ⊔ + 0 > - 1 + ⊔ > - 1 + 1 > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - 0 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - 1 + 1 < - ⊔ + 1 > - 1 + ⊔ > - | + 1 > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - ⊔ + ⊔ > - 1 + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - ⊔ + ⊔ < - 1 + | < - ⊔ + 0 > - | + ⊔ >
+Input specified: 10011|00001
+New tape:
+⊢ 1 0 0 1 1 | 0 0 0 0 1 ⊔ ⊔ ⊔ ...
+^                      
+Made transition using step: - ⊢ + ⊢ >
+New tape: 
+⊢ 1 0 0 1 1 | 0 0 0 0 1 ⊔ ⊔ ⊔ ...
+  ^                    
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ ⊔ 0 0 1 1 | 0 0 0 0 1 ⊔ ⊔ ⊔ ...
+    ^                  
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ ⊔ 0 0 1 1 | 0 0 0 0 1 ⊔ ⊔ ⊔ ...
+      ^                
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ ⊔ 0 0 1 1 | 0 0 0 0 1 ⊔ ⊔ ⊔ ...
+        ^              
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ ⊔ 0 0 1 1 | 0 0 0 0 1 ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ ⊔ 0 0 1 1 | 0 0 0 0 1 ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - | + 1 >
+New tape: 
+⊢ ⊔ 0 0 1 1 1 0 0 0 0 1 ⊔ ⊔ ⊔ ...
+              ^        
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ ⊔ 0 0 1 1 1 ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - 1 + | <
+New tape: 
+⊢ ⊔ 0 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ ⊔ 0 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+        ^              
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ ⊔ 0 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+      ^                
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ ⊔ 0 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+    ^                  
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ ⊔ 0 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+  ^                    
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 0 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+    ^                  
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ 1 ⊔ 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+      ^                
+Made transition using step: - 0 + 0 >
+New tape: 
+⊢ 1 ⊔ 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+        ^              
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ 1 ⊔ 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ 1 ⊔ 0 1 1 | ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - | + 0 >
+New tape: 
+⊢ 1 ⊔ 0 1 1 0 ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+              ^        
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 ⊔ 0 1 1 0 ⊔ 0 0 0 1 ⊔ ⊔ ⊔ ...
+                ^      
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ 1 ⊔ 0 1 1 0 ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+              ^        
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 ⊔ 0 1 1 0 ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - 0 + | <
+New tape: 
+⊢ 1 ⊔ 0 1 1 | ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ 1 ⊔ 0 1 1 | ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+        ^              
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ 1 ⊔ 0 1 1 | ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+      ^                
+Made transition using step: - 0 + 0 <
+New tape: 
+⊢ 1 ⊔ 0 1 1 | ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+    ^                  
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 1 0 0 1 1 | ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+      ^                
+Made transition using step: - 0 + ⊔ >
+New tape: 
+⊢ 1 0 ⊔ 1 1 | ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+        ^              
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ 1 0 ⊔ 1 1 | ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ 1 0 ⊔ 1 1 | ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - | + 0 >
+New tape: 
+⊢ 1 0 ⊔ 1 1 0 ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+              ^        
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 ⊔ 1 1 0 ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+                ^      
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 ⊔ 1 1 0 ⊔ ⊔ 0 0 1 ⊔ ⊔ ⊔ ...
+                  ^    
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ 1 0 ⊔ 1 1 0 ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+                ^      
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 ⊔ 1 1 0 ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+              ^        
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 ⊔ 1 1 0 ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - 0 + | <
+New tape: 
+⊢ 1 0 ⊔ 1 1 | ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ 1 0 ⊔ 1 1 | ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^              
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ 1 0 ⊔ 1 1 | ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+      ^                
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 1 0 0 1 1 | ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+        ^              
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ 1 0 0 ⊔ 1 | ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - 1 + 1 >
+New tape: 
+⊢ 1 0 0 ⊔ 1 | ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - | + 1 >
+New tape: 
+⊢ 1 0 0 ⊔ 1 1 ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+              ^        
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 0 ⊔ 1 1 ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+                ^      
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 0 ⊔ 1 1 ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+                  ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 0 ⊔ 1 1 ⊔ ⊔ ⊔ 0 1 ⊔ ⊔ ⊔ ...
+                    ^  
+Made transition using step: - 0 + ⊔ <
+New tape: 
+⊢ 1 0 0 ⊔ 1 1 ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                  ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 0 ⊔ 1 1 ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                ^      
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 0 ⊔ 1 1 ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+              ^        
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 0 ⊔ 1 1 ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - 1 + | <
+New tape: 
+⊢ 1 0 0 ⊔ 1 | ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - 1 + 1 <
+New tape: 
+⊢ 1 0 0 ⊔ 1 | ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+        ^              
+Made transition using step: - ⊔ + 1 >
+New tape: 
+⊢ 1 0 0 1 1 | ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - 1 + ⊔ >
+New tape: 
+⊢ 1 0 0 1 ⊔ | ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - | + 1 >
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+              ^        
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                ^      
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                  ^    
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                    ^  
+Made transition using step: - ⊔ + ⊔ >
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ 1 ⊔ ⊔ ⊔ ...
+                      ^
+Made transition using step: - 1 + ⊔ <
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+                    ^  
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+                  ^    
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+                ^      
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+              ^        
+Made transition using step: - ⊔ + ⊔ <
+New tape: 
+⊢ 1 0 0 1 ⊔ 1 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - 1 + | <
+New tape: 
+⊢ 1 0 0 1 ⊔ | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+          ^            
+Made transition using step: - ⊔ + 0 >
+New tape: 
+⊢ 1 0 0 1 0 | ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+            ^          
+Made transition using step: - | + ⊔ >
+New tape: 
+⊢ 1 0 0 1 0 ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ⊔ ...
+              ^        
+Reached the end of the execution trace
